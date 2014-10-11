@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @end
 
@@ -19,9 +19,15 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 3;
 }
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCellID" forIndexPath:indexPath];
+    cell.textLabel.text = [NSString stringWithFormat:@"Row %li", (long)indexPath.row];
+    return cell;
+}
+
 
 @end
