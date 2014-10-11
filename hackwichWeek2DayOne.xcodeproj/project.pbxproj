@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCBC958119E9B03C00F6CDFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC958019E9B03C00F6CDFD /* main.m */; };
+		CCBC958419E9B03C00F6CDFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC958319E9B03C00F6CDFD /* AppDelegate.m */; };
+		CCBC958719E9B03C00F6CDFD /* hackwichWeek2DayOne.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCBC958519E9B03C00F6CDFD /* hackwichWeek2DayOne.xcdatamodeld */; };
+		CCBC958A19E9B03C00F6CDFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC958919E9B03C00F6CDFD /* ViewController.m */; };
+		CCBC958D19E9B03C00F6CDFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBC958B19E9B03C00F6CDFD /* Main.storyboard */; };
+		CCBC958F19E9B03C00F6CDFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBC958E19E9B03C00F6CDFD /* Images.xcassets */; };
+		CCBC959219E9B03C00F6CDFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCBC959019E9B03C00F6CDFD /* LaunchScreen.xib */; };
+		CCBC959E19E9B03C00F6CDFD /* hackwichWeek2DayOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC959D19E9B03C00F6CDFD /* hackwichWeek2DayOneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCBC959819E9B03C00F6CDFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCBC957319E9B03C00F6CDFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCBC957A19E9B03C00F6CDFD;
+			remoteInfo = hackwichWeek2DayOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCBC957B19E9B03C00F6CDFD /* hackwichWeek2DayOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackwichWeek2DayOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBC957F19E9B03C00F6CDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBC958019E9B03C00F6CDFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCBC958219E9B03C00F6CDFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCBC958319E9B03C00F6CDFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCBC958619E9B03C00F6CDFD /* hackwichWeek2DayOne.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hackwichWeek2DayOne.xcdatamodel; sourceTree = "<group>"; };
+		CCBC958819E9B03C00F6CDFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCBC958919E9B03C00F6CDFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCBC958C19E9B03C00F6CDFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCBC958E19E9B03C00F6CDFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCBC959119E9B03C00F6CDFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCBC959719E9B03C00F6CDFD /* hackwichWeek2DayOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackwichWeek2DayOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBC959C19E9B03C00F6CDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBC959D19E9B03C00F6CDFD /* hackwichWeek2DayOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hackwichWeek2DayOneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCBC957819E9B03C00F6CDFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBC959419E9B03C00F6CDFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCBC957219E9B03C00F6CDFD = {
+			isa = PBXGroup;
+			children = (
+				CCBC957D19E9B03C00F6CDFD /* hackwichWeek2DayOne */,
+				CCBC959A19E9B03C00F6CDFD /* hackwichWeek2DayOneTests */,
+				CCBC957C19E9B03C00F6CDFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCBC957C19E9B03C00F6CDFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC957B19E9B03C00F6CDFD /* hackwichWeek2DayOne.app */,
+				CCBC959719E9B03C00F6CDFD /* hackwichWeek2DayOneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCBC957D19E9B03C00F6CDFD /* hackwichWeek2DayOne */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC958219E9B03C00F6CDFD /* AppDelegate.h */,
+				CCBC958319E9B03C00F6CDFD /* AppDelegate.m */,
+				CCBC958819E9B03C00F6CDFD /* ViewController.h */,
+				CCBC958919E9B03C00F6CDFD /* ViewController.m */,
+				CCBC958B19E9B03C00F6CDFD /* Main.storyboard */,
+				CCBC958E19E9B03C00F6CDFD /* Images.xcassets */,
+				CCBC959019E9B03C00F6CDFD /* LaunchScreen.xib */,
+				CCBC958519E9B03C00F6CDFD /* hackwichWeek2DayOne.xcdatamodeld */,
+				CCBC957E19E9B03C00F6CDFD /* Supporting Files */,
+			);
+			path = hackwichWeek2DayOne;
+			sourceTree = "<group>";
+		};
+		CCBC957E19E9B03C00F6CDFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC957F19E9B03C00F6CDFD /* Info.plist */,
+				CCBC958019E9B03C00F6CDFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCBC959A19E9B03C00F6CDFD /* hackwichWeek2DayOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC959D19E9B03C00F6CDFD /* hackwichWeek2DayOneTests.m */,
+				CCBC959B19E9B03C00F6CDFD /* Supporting Files */,
+			);
+			path = hackwichWeek2DayOneTests;
+			sourceTree = "<group>";
+		};
+		CCBC959B19E9B03C00F6CDFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC959C19E9B03C00F6CDFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCBC957A19E9B03C00F6CDFD /* hackwichWeek2DayOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBC95A119E9B03C00F6CDFD /* Build configuration list for PBXNativeTarget "hackwichWeek2DayOne" */;
+			buildPhases = (
+				CCBC957719E9B03C00F6CDFD /* Sources */,
+				CCBC957819E9B03C00F6CDFD /* Frameworks */,
+				CCBC957919E9B03C00F6CDFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hackwichWeek2DayOne;
+			productName = hackwichWeek2DayOne;
+			productReference = CCBC957B19E9B03C00F6CDFD /* hackwichWeek2DayOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCBC959619E9B03C00F6CDFD /* hackwichWeek2DayOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBC95A419E9B03C00F6CDFD /* Build configuration list for PBXNativeTarget "hackwichWeek2DayOneTests" */;
+			buildPhases = (
+				CCBC959319E9B03C00F6CDFD /* Sources */,
+				CCBC959419E9B03C00F6CDFD /* Frameworks */,
+				CCBC959519E9B03C00F6CDFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCBC959919E9B03C00F6CDFD /* PBXTargetDependency */,
+			);
+			name = hackwichWeek2DayOneTests;
+			productName = hackwichWeek2DayOneTests;
+			productReference = CCBC959719E9B03C00F6CDFD /* hackwichWeek2DayOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCBC957319E9B03C00F6CDFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "MIKE LAND";
+				TargetAttributes = {
+					CCBC957A19E9B03C00F6CDFD = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					CCBC959619E9B03C00F6CDFD = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = CCBC957A19E9B03C00F6CDFD;
+					};
+				};
+			};
+			buildConfigurationList = CCBC957619E9B03C00F6CDFD /* Build configuration list for PBXProject "hackwichWeek2DayOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCBC957219E9B03C00F6CDFD;
+			productRefGroup = CCBC957C19E9B03C00F6CDFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCBC957A19E9B03C00F6CDFD /* hackwichWeek2DayOne */,
+				CCBC959619E9B03C00F6CDFD /* hackwichWeek2DayOneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCBC957919E9B03C00F6CDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBC958D19E9B03C00F6CDFD /* Main.storyboard in Resources */,
+				CCBC959219E9B03C00F6CDFD /* LaunchScreen.xib in Resources */,
+				CCBC958F19E9B03C00F6CDFD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBC959519E9B03C00F6CDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCBC957719E9B03C00F6CDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBC958719E9B03C00F6CDFD /* hackwichWeek2DayOne.xcdatamodeld in Sources */,
+				CCBC958419E9B03C00F6CDFD /* AppDelegate.m in Sources */,
+				CCBC958A19E9B03C00F6CDFD /* ViewController.m in Sources */,
+				CCBC958119E9B03C00F6CDFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBC959319E9B03C00F6CDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBC959E19E9B03C00F6CDFD /* hackwichWeek2DayOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCBC959919E9B03C00F6CDFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCBC957A19E9B03C00F6CDFD /* hackwichWeek2DayOne */;
+			targetProxy = CCBC959819E9B03C00F6CDFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCBC958B19E9B03C00F6CDFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBC958C19E9B03C00F6CDFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCBC959019E9B03C00F6CDFD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBC959119E9B03C00F6CDFD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCBC959F19E9B03C00F6CDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCBC95A019E9B03C00F6CDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCBC95A219E9B03C00F6CDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hackwichWeek2DayOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCBC95A319E9B03C00F6CDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hackwichWeek2DayOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCBC95A519E9B03C00F6CDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hackwichWeek2DayOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackwichWeek2DayOne.app/hackwichWeek2DayOne";
+			};
+			name = Debug;
+		};
+		CCBC95A619E9B03C00F6CDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hackwichWeek2DayOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackwichWeek2DayOne.app/hackwichWeek2DayOne";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCBC957619E9B03C00F6CDFD /* Build configuration list for PBXProject "hackwichWeek2DayOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBC959F19E9B03C00F6CDFD /* Debug */,
+				CCBC95A019E9B03C00F6CDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBC95A119E9B03C00F6CDFD /* Build configuration list for PBXNativeTarget "hackwichWeek2DayOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBC95A219E9B03C00F6CDFD /* Debug */,
+				CCBC95A319E9B03C00F6CDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCBC95A419E9B03C00F6CDFD /* Build configuration list for PBXNativeTarget "hackwichWeek2DayOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBC95A519E9B03C00F6CDFD /* Debug */,
+				CCBC95A619E9B03C00F6CDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCBC958519E9B03C00F6CDFD /* hackwichWeek2DayOne.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCBC958619E9B03C00F6CDFD /* hackwichWeek2DayOne.xcdatamodel */,
+			);
+			currentVersion = CCBC958619E9B03C00F6CDFD /* hackwichWeek2DayOne.xcdatamodel */;
+			path = hackwichWeek2DayOne.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCBC957319E9B03C00F6CDFD /* Project object */;
+}
